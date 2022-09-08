@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkred;
+}
+
+/* big box style */
+.bigBox{
+    color:white;
+    text-align: center;
+    border:2px solid white;
+    margin:7% 15%;
+}
+
+
+/* small box style */
+.box{
+    /* border:2px solid white; */
+    padding:3% 7% 1%;
+    text-align: center;
+}
+
+.heading{
+    margin:3%;
+    font-size: 4rem;
+}
+
+.btn{
+    padding:3%;
+    font-size: 1.5rem;
+    border:2px solid white;
+    background-color: transparent;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.aaroh-riyaz, .avroh-riyaz{
+    text-align: justify;
+    font-size: 2rem;
+}
+
+.aaroh, .avroh{
+    /* display: none; */
+    color:yellow;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+.btnBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin:4%;
+}
+.chooseAgainBtn{
+    padding:3%;
+    font-size: 1.5rem;
+    border:2px solid white;
+    background-color: transparent;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    /* margin:auto; */
+    /* margin-top:5%; */
+}
+
+#btn1, #btn2{
+    flex-basis: 50%;
+    margin-top: 3%;
+}

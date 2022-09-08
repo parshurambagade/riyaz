@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkred;
+}
+
+/* big box style */
+.bigBox{
+    color:white;
+    text-align: center;
+    border:2px solid white;
+    margin:7% 15%;
+}
+
+
+/* small box style */
+.box{
+    /* border:2px solid white; */
+    padding:3% 7%;
+    text-align: center;
+}
+
+.heading{
+    margin:3%;
+    font-size: 4rem;
+}
+
+.btn{
+    padding:2%;
+    font-size: 1.5rem;
+    border:2px solid white;
+    background-color: transparent;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
